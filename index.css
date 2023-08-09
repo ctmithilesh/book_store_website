@@ -1,0 +1,31 @@
+body {
+  background-color: #f7f1e3;
+  /* background-image: url("https://t3.ftcdn.net/jpg/02/43/25/90/360_F_243259090_crbVsAqKF3PC2jk2eKiUwZHBPH8Q6y9Y.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.book {
+  background-color: #ffeaa7;
+  margin: 0rem; /* all sides 10px */
+  padding: 1rem;
+  border: 0.1rem solid black;
+}
+.book .book__heading h1 {
+  font: 200;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-variant: small-caps;
+}
+.book .book__welcome h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.book .book__popular_books h3 {
+  background-color: #34ace0;
+  text-align: center;
+}
+.book .book__popular_books ul li {
+  padding: 0.5rem;
+}
